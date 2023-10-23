@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
     .create(
-         body='thats cool',
+         body='TEXT TEXT TEXT',
          from_='++18336481841',
          to='+15106405848'
      )
