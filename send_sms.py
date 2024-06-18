@@ -13,7 +13,7 @@ message = client.messages \
     .create(
          body='TEXT TEXT TEXT',
          from_='++18336481841',
-         to='+15106405848'
+         to='PHONENUMBER'
      )
 
 print(message.sid)
